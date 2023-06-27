@@ -1,0 +1,25 @@
+{
+  "name": "n3-programacao-server-side",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "description": "🔑 Aplicação backend usando conceitos de API junto com autenticação JWT.",
+  "scripts": {
+    "start": "nodemon ./src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "sequelize": "^6.32.1",
+    "sqlite3": "^5.1.6",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
